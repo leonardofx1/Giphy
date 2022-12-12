@@ -1,0 +1,40 @@
+.container__principal{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+  }
+.form {
+    width: 100%;
+    max-width: 840px;
+    margin:25px auto;
+    text-align: center;
+    .busca__giphy {
+        padding:.8rem;
+        width:100%;
+        border:none;
+        border-radius: 5px;
+        box-shadow: .1px .1px 2px 2px black;
+    }
+}
+.subtitulo {
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.container__giphys {
+    min-height: 50vh;
+    margin: 10px;
+    max-height: auto;
+    padding:1rem;
+}
+.gif {
+    min-width: 300px;
+    height: auto;
+}
+.container__giphys img:nth-child(odd) {
+    width:500px;
+    height:auto;
+}
