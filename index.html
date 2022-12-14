@@ -11,9 +11,12 @@
     <title>Api Do Giphy</title>
 </head>
 
-<body>
+<body class="corpo">
     <header class="cabecalho">
-        <img src="img/my_foto.jpg" class='foto__adm' alt="minha foto">
+        <div class="usuario__header">
+            <img src="img/my_foto.jpg" class='foto__adm' alt="minha foto">
+            <p>usuário</p>
+        </div>
         <div> <a href='#' class="menu__link">Favoritos</a>
             <a href='#' class="menu__link">Sobre</a>
         </div>
@@ -23,14 +26,20 @@
             <h1>API DO GIPHY</h1>
         </div>
         <form action="#" class="form">
-            <input class="busca__giphy" type="text" class="submit" name="seach" placeholder="Buscar giphy">
+            <input class="busca__giphy" type="text" class="submit" name="search" placeholder="Buscar giphy">
         </form>
         <section class="container__principal">
             <h2 class="subtitulo">Giphys</h2>
             <div class="container__giphys">
-                <img class="gif" src="https://i.giphy.com/6jvIEDTEW5X9K.gif" alt="">
-                <img class="gif" src="https://i.giphy.com/JRlqKEzTDKci5JPcaL.gif" alt="">
-                <img class="gif" src="https://i.giphy.com/WOb8EeFziTQNE02WXs.gif" alt="">
+                <div class="img"><img class="gif" src="https://i.giphy.com/6jvIEDTEW5X9K.gif" alt=""></div>
+                <div class="img">
+                    <img class="gif" src="https://i.giphy.com/JRlqKEzTDKci5JPcaL.gif" alt="">
+                </div>
+                <div class="img"><img class="gif" src="https://i.giphy.com/WOb8EeFziTQNE02WXs.gif" alt=""></div>
+
+            </div>
+            <div class="container__giphys___animes">
+
             </div>
         </section>
     </main>
@@ -59,5 +68,6 @@
     </footer>
 </body>
 <script src="js/giphy.js"></script>
+<script src="js/index.js"></script>
 
 </html>

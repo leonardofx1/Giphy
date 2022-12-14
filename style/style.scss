@@ -5,4 +5,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+}.corpo {
+    height: 100%;
+    background-image: linear-gradient(to bottom, turquoise, transparent, rgb(135, 5, 235));
 }
