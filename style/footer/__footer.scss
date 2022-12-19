@@ -1,46 +1,10 @@
 .rodape {
     width:100%;
-    height:auto;
-    margin-top:1rem;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction:column;
+    height:30px;
+    text-align: center;
+    margin-top:2rem;
     background-color:rgb(116, 59, 168);
-    .titulo__rodape{
-        color:white;
-        font-size: 2rem;
-        font-family: sans-serif;
-        font-weight: bold;
-    }
-    .rodape__contato {
-        color:white;
-        font-size: 1.8rem;
-        font-family: sans-serif;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        text-decoration:none;
-    }
-    .rodape__tel {
-        background-image:linear-gradient(to left, #4bae51,green);
-        padding:.5rem;
-        border-radius: 25px;
-        width:250px;
-    }
-    .rodape__email {
-        background-image:linear-gradient(to left, white,red);
-        border-radius: 25px;
-        padding:.5rem;
-    
-        transition: transform 2s all ease-in-out;
-        &:hover {
-            background-image:linear-gradient(to right, white,red);
-        }
-    }
-    
-}
-.rodape__img{
-    width:40px;
-    height:40px;
+    color:white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
 }
