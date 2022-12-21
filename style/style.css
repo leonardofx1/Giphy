@@ -108,6 +108,17 @@
   background-color: turquoise;
 }
 
+@media screen and (max-width: 600px) {
+  .container__giphys {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gif {
+    width: 400px;
+    min-width: auto;
+    max-width: 410px;
+  }
+}
 .rodape {
   width: 100%;
   height: 30px;
