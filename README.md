@@ -5,7 +5,7 @@
 <p>após isso será feito uma chamada Api utilizando o fetch para a o endpoint do site Giphy.</p>
 
 
-<p>Desenvolvedor</p>
+<p><strong>Desenvolvedor</strong></p>
 <h2>Leonardo nunes</h2>
 
 <h3>Link do Projeto</h3>
